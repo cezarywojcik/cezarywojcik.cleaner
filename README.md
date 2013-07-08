@@ -1,6 +1,4 @@
-#Cleaner
-
-This is an extension for [Brackets.io](https://github.com/adobe/brackets).
+#Cleaner for [Brackets.io](https://github.com/adobe/brackets)
 
 Removes trailing spaces and tabs, adds newlines at the end of the file, and converts tabs to spaces if the user is using spaces.
 
