@@ -29,6 +29,6 @@ define(function (require, exports, module) {
   var FORMAT_ID = "cezarywojcik.clean";
   CommandManager.register("Clean", FORMAT_ID, clean);
 
-  var menu = Menus.getMenu(Menus.AppMenuBar.FILE_MENU);
+  var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
   menu.addMenuItem(FORMAT_ID, "Ctrl-Alt-C");
 });
