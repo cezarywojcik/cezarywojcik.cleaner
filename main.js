@@ -34,14 +34,16 @@ define(function (require, exports, module) {
       txt += "\n";
     }
 
-    // get cursor position
+    // get cursor and scroll position
     var cursorPos = CurrentEditor.getCursorPos();
+    var scrollPos = CurrentEditor.getScrollPos();
 
     // add cleaned text
     Document.setText(txt);
 
-    // apply cursor position
+    // apply cursor and scroll position
     CurrentEditor.setCursorPos(cursorPos);
+    CurrentEditor.setScrollPos(scrollPos.x, scrollPos.y);
   }
 
   var FORMAT_ID = "cezarywojcik.clean";
