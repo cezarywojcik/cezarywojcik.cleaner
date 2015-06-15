@@ -1,7 +1,7 @@
 {
   "name": "cezarywojcik.cleaner",
   "title": "Cleaner",
-  "description": "Cleaner",
+  "description": "Removes trailing spaces and tabs, adds newlines at the end of the file, and converts tabs to spaces if the user is using spaces",
   "homepage": "https://github.com/cezarywojcik/cezarywojcik.cleaner",
   "version": "0.1.1",
   "author": "Cezary Wojcik <cezarywojcik92@gmail.com> (http://www.cezarywojcik.com)",
